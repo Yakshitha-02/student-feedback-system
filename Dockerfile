@@ -8,6 +8,9 @@ COPY app/ /app/
 # copy templates
 COPY templates/ /app/templates/
 
+# ✅ copy static files (IMPORTANT FIX)
+COPY static/ /app/static/
+
 # install dependencies
 RUN pip install flask
 
