@@ -1,0 +1,35 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    background: #667eea;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
