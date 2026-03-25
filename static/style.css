@@ -1,35 +1,26 @@
-/* style.css */
-
+/* Background */
 body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #667eea, #764ba2);
-    color: white;
-    text-align: center;
-    padding: 50px;
+  background: linear-gradient(135deg, #e0f2fe, #bae6fd);
+  color: #0f172a;
 }
 
-h1 {
-    margin-bottom: 20px;
+/* Card */
+.card {
+  background: #ffffff;
 }
 
-form {
-    background: white;
-    color: black;
-    padding: 20px;
-    border-radius: 10px;
-    display: inline-block;
-}
-
-input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-}
-
+/* Button */
 button {
-    background: #667eea;
-    color: white;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
+  background: #38bdf8;
+  color: white;
+}
+
+button:hover {
+  background: #0ea5e9;
+}
+
+/* Inputs */
+input, textarea {
+  background: #f1f5f9;
+  color: #0f172a;
 }

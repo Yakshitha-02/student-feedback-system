@@ -8,12 +8,10 @@ pipeline {
             }
         }
 
-        stage('Run Container') {
-            steps {
-                bat 'docker stop feedback || exit 0'
-                bat 'docker rm feedback || exit 0'
-                bat 'docker run -d -p 5000:5000 --name feedback student-feedback-app'
-            }
-        }
+       stage('Deploy with Ansible') {
+    steps {
+        bat 'ansible-playbook ansible/deploy.yml'
+    }
+}
     }
 }
